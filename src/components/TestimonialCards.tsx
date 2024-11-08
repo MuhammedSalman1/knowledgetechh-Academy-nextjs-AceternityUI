@@ -2,8 +2,7 @@
  
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
-import { div } from "framer-motion/client";
- 
+
 
 function TestimonialCards() {
   return (

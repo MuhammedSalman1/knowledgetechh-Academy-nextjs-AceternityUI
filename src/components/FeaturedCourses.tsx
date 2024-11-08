@@ -2,8 +2,6 @@
 import React from 'react'
 import coursedData from "../data/IT_courses.json"
 import Link from 'next/link'
-import { Button } from "./ui/moving-border";
-import { p } from 'framer-motion/client';
 import { BackgroundGradient } from './ui/background-gradient';
 
 interface Course{
