@@ -1,0 +1,114 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Computer Science",
+      "description": "Learn the basics of computer science, covering algorithms, data structures, and problem-solving techniques.",
+      "duration": "10 weeks",
+      "level": "Beginner",
+      "topics": ["Algorithms", "Data Structures", "Programming Basics"],
+      "teacher": "Dr. Emily Johnson",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.Gi7eP1v-gdAncuKF3GKx_QFNC7&pid=Api&P=0&h=220.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "Web Development",
+      "description": "An in-depth course on HTML, CSS, and JavaScript for building dynamic websites.",
+      "duration": "12 weeks",
+      "level": "Beginner to Intermediate",
+      "topics": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      "teacher": "Mr. Alex Smith",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.xi_VY54V535hztHz11VTyQHaFL&pid=Api&P=0&h=220.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "title": "Data Science with Python",
+      "description": "A practical course on data science using Python, including data analysis, visualization, and machine learning.",
+      "duration": "15 weeks",
+      "level": "Intermediate",
+      "topics": ["Python", "Data Analysis", "Pandas", "Machine Learning"],
+      "teacher": "Dr. Sarah Lee",
+      "image": "https://softwaresolutioncorp.com/wp-content/uploads/2020/08/DataScience_BusinessIntelligence_Phythonfordatascience-1-scaled.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "title": "Cloud Computing Fundamentals",
+      "description": "Explore the basics of cloud computing, covering major cloud providers and services.",
+      "duration": "8 weeks",
+      "level": "Beginner",
+      "topics": ["AWS", "Azure", "Google Cloud", "Cloud Storage"],
+      "teacher": "Ms. Laura Kim",
+      "image": "https://certref.com/cdn/cache/1170x780/image/2019/06/01/e2ee0c93875fb717fc68ccb0dc6db343.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 5,
+      "title": "Cybersecurity Essentials",
+      "description": "Understand the core concepts of cybersecurity, including network security and risk management.",
+      "duration": "10 weeks",
+      "level": "Intermediate",
+      "topics": ["Network Security", "Risk Management", "Cyber Threats", "Encryption"],
+      "teacher": "Mr. David Brown",
+      "image": "https://edu.mavenx.co/wp-content/uploads/2022/12/cybersecurity-essentials-course-header-v2.jpg",
+      "isFeatured": false
+    },
+    {
+      "id": 6,
+      "title": "Mobile App Development",
+      "description": "Learn to develop mobile applications for iOS and Android platforms using Flutter.",
+      "duration": "12 weeks",
+      "level": "Intermediate",
+      "topics": ["Flutter", "Dart", "iOS", "Android"],
+      "teacher": "Ms. Sophia Chen",
+      "image": "https://www.panoramicinfotech.com/wp-content/uploads/2021/07/app-development-min.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 7,
+      "title": "Artificial Intelligence Fundamentals",
+      "description": "An introductory course on artificial intelligence, covering machine learning and neural networks.",
+      "duration": "14 weeks",
+      "level": "Advanced",
+      "topics": ["Machine Learning", "Neural Networks", "AI Ethics", "Supervised Learning"],
+      "teacher": "Dr. James Turner",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.HCE6li2l73Vo-sMkDwQKlwHaFj&pid=Api&P=0&h=220",
+      "isFeatured": true
+    },
+    {
+      "id": 8,
+      "title": "DevOps and CI/CD",
+      "description": "Learn DevOps fundamentals and how to set up CI/CD pipelines to automate development processes.",
+      "duration": "10 weeks",
+      "level": "Intermediate",
+      "topics": ["CI/CD", "Version Control", "Automation", "Jenkins", "Docker"],
+      "teacher": "Mr. Chris Evans",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.t_JAmjab-4eEa_A1sAKZCAHaHa&pid=Api&P=0&h=220",
+      "isFeatured": false
+    },
+    {
+      "id": 9,
+      "title": "Blockchain and Cryptocurrency",
+      "description": "Discover blockchain technology and the principles of cryptocurrencies, including smart contracts.",
+      "duration": "8 weeks",
+      "level": "Advanced",
+      "topics": ["Blockchain", "Cryptocurrency", "Smart Contracts", "Ethereum"],
+      "teacher": "Ms. Olivia Davis",
+      "image": "https://www.bitcoininsider.org/sites/default/files/styles/large/public/field/image/2023/03/blockchain-bitcoin-dollar-123.jpg?itok=pKzppaoc",
+      "isFeatured": false
+    },
+    {
+      "id": 10,
+      "title": "User Experience (UX) Design",
+      "description": "Learn UX design principles and how to create user-friendly interfaces for web and mobile applications.",
+      "duration": "8 weeks",
+      "level": "Beginner to Intermediate",
+      "topics": ["User Research", "Wireframing", "Prototyping", "User Testing"],
+      "teacher": "Ms. Anna Martinez",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/8b4d6497096089.5ebd368d1eeae.jpg",
+      "isFeatured":false
+    }
+  ]
+}
