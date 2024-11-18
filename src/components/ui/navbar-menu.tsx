@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
+// Define the transition settings
 const transition = {
   type: "spring",
   mass: 0.5,
@@ -13,19 +14,17 @@ const transition = {
   restSpeed: 0.001,
 };
 
-export const MenuItem = ({
-  setActive,
-  active,
-  item,
-  children,
-}: {
+// Typing for MenuItem
+interface MenuItemProps {
   setActive: (item: string) => void;
   active: string | null;
   item: string;
   children?: React.ReactNode;
-}) => {
+}
+
+export const MenuItem = ({ setActive, active, item, children }: MenuItemProps) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className="relative">
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
@@ -45,10 +44,7 @@ export const MenuItem = ({
                 layoutId="active" // layoutId ensures smooth animation
                 className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
               >
-                <motion.div
-                  layout // layout ensures smooth animation
-                  className="w-max h-full p-4"
-                >
+                <motion.div layout className="w-max h-full p-4">
                   {children}
                 </motion.div>
               </motion.div>
@@ -60,34 +56,32 @@ export const MenuItem = ({
   );
 };
 
-export const Menu = ({
-  setActive,
-  children,
-}: {
+// Typing for Menu
+interface MenuProps {
   setActive: (item: string | null) => void;
   children: React.ReactNode;
-}) => {
+}
+
+export const Menu = ({ setActive, children }: MenuProps) => {
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6"
     >
       {children}
     </nav>
   );
 };
 
-export const ProductItem = ({
-  title,
-  description,
-  href,
-  src,
-}: {
+// Typing for ProductItem
+interface ProductItemProps {
   title: string;
   description: string;
-  href: string;
+  href: string; // Correctly type `href` as `string`
   src: string;
-}) => {
+}
+
+export const ProductItem = ({ title, description, href, src }: ProductItemProps) => {
   return (
     <Link href={href} className="flex space-x-2">
       <Image
@@ -109,11 +103,17 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+// Typing for HoveredLink
+interface HoveredLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+  href: string; // Ensure href is required and typed correctly as string or URL
+}
+
+export const HoveredLink = ({ children, href, ...rest }: HoveredLinkProps) => {
   return (
     <Link
+      href={href} // Using `href` as a string here
+      className="text-neutral-700 dark:text-neutral-200 hover:text-black"
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black "
     >
       {children}
     </Link>

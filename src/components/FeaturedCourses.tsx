@@ -6,12 +6,12 @@ import { BackgroundGradient } from './ui/background-gradient';
 
 interface Course{
        id: number,
-      title: String,
-      description: String,
-      duration: String,
-      level: String,
-      topics: String[],
-      teacher: String,
+      title: string,
+      description:string,
+      duration: string,
+      level: string,
+      topics: string[],
+      teacher: string,
       isFeatured: boolean;
 }
 
