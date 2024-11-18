@@ -31,7 +31,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
                 Courses
@@ -39,7 +39,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
@@ -51,19 +51,19 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex flex-col ">
             <a
-              href="#"
+              href="https://web.facebook.com/?_rdc=1&_rdr"
               className="hover:text-white transition-colors duration-300"
             >
               Facebook
             </a>
             <a
-              href="#"
+              href="https://en.wikipedia.org/wiki/Twitter"
               className="hover:text-white transition-colors duration-300"
             >
               Twitter
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/"
               className="hover:text-white transition-colors duration-300"
             >
               Instagram
